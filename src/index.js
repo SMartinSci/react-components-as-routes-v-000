@@ -17,7 +17,14 @@ const About = () => {
     </div>
   );
 };
- 
+
+const Login = () => {
+  return (
+    <div>
+      <form>
+        <div>
+          <input type="text" name="username" placeholder="Username" />
+          <label htmlFor="username">Username</label>
 
 ReactDOM.render(
   <Router>
